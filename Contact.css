@@ -1,0 +1,257 @@
+body {
+    background: linear-gradient(145deg, #d32424, #a6a868, #a56720, #ec1919);
+    font-family: 'Sans serif', Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+}
+
+.home {
+    background-image: url("/assets/img/contact.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greetings h1 {
+    font-size: 48px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.greetings h1:hover {
+    color: #c23118;
+}
+
+.greetings p {
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.greetings p:hover {
+    color: #d1d804;
+}
+
+.navbar-custom {
+    background: linear-gradient(145deg, #d32424, #a6a868, #a56720, #ec1919);
+}
+
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #bab02a !important;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 30px;
+}
+
+.section {
+    margin-top: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+
+.section-title h2 {
+    font-size: 50px;
+}
+
+.section-title h2:hover {
+    color: #c23118;
+}
+
+.contact-info {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    color: white;
+}
+
+.contact-info h5 {
+    margin-top: 25px;
+    color: rgb(79, 77, 77);
+}
+
+.contact-info p,
+.contact-info a {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: rgb(110, 19, 19);
+}
+
+.contact-info a {
+    color: #ba2a2a;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.form-control,
+textarea {
+    border: none;
+    border-bottom: 1px solid #fff;
+    border-radius: 0;
+    margin-bottom: 25px;
+    background: transparent;
+    color: white;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #bab02a;
+}
+
+.submit-btn {
+    border: 1px solid #fff;
+    background: transparent;
+    padding: 8px 25px;
+    font-weight: normal;
+    color: white;
+}
+
+.submit-btn:hover {
+    background-color: #ba2a2a;
+    color: #fff;
+    border-color: #ba2a2a;
+}
+
+:target {
+    scroll-margin-top: 70px;
+}
+
+.footer-custom {
+    background: linear-gradient(145deg, #d32424, #a6a868, #a56720, #ec1919);
+    color: white;
+    font-family: 'Sans serif', Impact, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-custom h3.footer-brand {
+    font-size: 30px;
+    color: rgb(82, 8, 8);
+    margin-bottom: 10px;
+}
+
+.footer-custom h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-custom p, .footer-custom li {
+    font-size: 16px;
+    color: white;
+}
+
+.footer-custom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-custom a:hover {
+    color: #ba2a2a;
+}
+
+.adress:hover{
+    color: #ba2a2a;
+}
+
+.footer-custom .list-unstyled li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767.98px) {
+    .home {
+        height: 50vh;
+    }
+    .greetings h1 {
+        font-size: 36px;
+    }
+    .greetings p {
+        font-size: 18px;
+    }
+    .section-title {
+        padding: 10px;
+    }
+    .section-title h2 {
+        font-size: 40px;
+    }
+    .contact-info {
+        padding: 20px;
+    }
+    .contact-info h5 {
+        margin-top: 15px;
+    }
+    .form-control,
+    textarea {
+        margin-bottom: 15px;
+    }
+    .footer-custom h3.footer-brand {
+        font-size: 24px;
+    }
+    .footer-custom h4 {
+        font-size: 18px;
+    }
+    .footer-custom p, .footer-custom li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .home {
+        height: 40vh;
+    }
+    .greetings h1 {
+        font-size: 28px;
+    }
+    .greetings p {
+        font-size: 16px;
+    }
+    .section-title {
+        padding: 5px;
+    }
+    .section-title h2 {
+        font-size: 32px;
+    }
+    .contact-info {
+        padding: 15px;
+    }
+    .contact-info h5 {
+        margin-top: 10px;
+    }
+    .form-control,
+    textarea {
+        margin-bottom: 10px;
+    }
+    .footer-custom h3.footer-brand {
+        font-size: 20px;
+    }
+    .footer-custom h4 {
+        font-size: 16px;
+    }
+    .footer-custom p, .footer-custom li {
+        font-size: 12px;
+    }
+}

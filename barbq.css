@@ -1,0 +1,265 @@
+body {
+    background: linear-gradient(145deg, #d32424, #a6a868, #a56720, #ec1919);
+    font-family: 'Sans serif', Impact, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+}
+
+.home {
+    background-image: url("/assets/img/BBQ.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    height: 90vh;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.greetings h1 {
+    font-size: 48px;
+}
+
+.greetings h1:hover {
+    color: #c23118;
+}
+
+.greetings p {
+    font-size: 24px;
+    margin-left: 5%;
+}
+
+.greetings p:hover {
+    color: #bab02a;
+}
+
+.navbar-custom {
+    background: linear-gradient(145deg, #d32424, #a6a868, #a56720, #ec1919);
+}
+
+.navbar-custom .nav-link {
+    color: white !important;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #bab02a !important;
+    text-decoration: underline;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 30px;
+}
+
+.services {
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+    padding: 15px;
+}
+
+#service {
+    margin-top: 20px;
+}
+
+.cad {
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    transition: transform 0.3s ease-out;
+}
+
+.cad:hover {
+    transform: scale(1.03);
+}
+
+.cad1 { background-image: url("/assets/img/Mutton-Tikka.jpeg"); }
+.cad2 { background-image: url("/assets/img/Chicken-boti.jpeg"); }
+.cad3 { background-image: url("/assets/img/Beef-Kabab.jpeg"); }
+.cad4 { background-image: url("/assets/img/Fish-Tikka.jpeg"); }
+
+.cad-content {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cad h3 {
+    color: white;
+    font-size: 24px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+}
+
+.cad h3:hover {
+    text-decoration: underline;
+}
+
+.buy {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border-radius: 20px;
+    background: linear-gradient(145deg, #d32424, #dc5816, #a56720, #ec1919);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.buy:hover {
+    opacity: 0.9;
+}
+
+.services #Deals {
+    font-size: 50px;
+}
+
+.services #Deals:hover {
+    color: #c23118;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+:target {
+    scroll-margin-top: 70px;
+}
+
+.footer-custom {
+    background: linear-gradient(145deg, #d32424, #a6a868, #a56720, #ec1919);
+    color: white;
+    font-family: 'Sans serif', Impact, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-custom h3.footer-brand {
+    font-size: 30px;
+    color: rgb(82, 8, 8);
+    margin-bottom: 10px;
+}
+
+.footer-custom h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.footer-custom p, .footer-custom li {
+    font-size: 16px;
+    color: white;
+}
+
+.footer-custom a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-custom a:hover {
+    color: #ba2a2a;
+}
+
+.adress:hover {
+    color: #ba2a2a;
+}
+
+.footer-custom .list-unstyled li {
+    margin-bottom: 8px;
+}
+
+@media (max-width: 767.98px) {
+    .home {
+        height: 50vh;
+    }
+    .greetings h1 {
+        font-size: 36px;
+    }
+    .greetings p {
+        font-size: 18px;
+    }
+    .services {
+        padding: 10px;
+    }
+    .cad {
+        height: 250px;
+    }
+    .cad h3 {
+        font-size: 20px;
+    }
+    .buy {
+        padding: 6px 12px;
+        font-size: 14px;
+        margin-top: 8px;
+    }
+    .services #Deals {
+        font-size: 40px;
+    }
+    .footer-custom h3.footer-brand {
+        font-size: 24px;
+    }
+    .footer-custom h4 {
+        font-size: 18px;
+    }
+    .footer-custom p, .footer-custom li {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .home {
+        height: 40vh;
+    }
+    .greetings h1 {
+        font-size: 28px;
+    }
+    .greetings p {
+        font-size: 16px;
+    }
+    .services {
+        padding: 5px;
+    }
+    .cad {
+        height: 200px;
+    }
+    .cad h3 {
+        font-size: 18px;
+    }
+    .buy {
+        padding: 4px 10px;
+        font-size: 12px;
+        margin-top: 6px;
+    }
+    .services #Deals {
+        font-size: 32px;
+    }
+    .footer-custom h3.footer-brand {
+        font-size: 20px;
+    }
+    .footer-custom h4 {
+        font-size: 16px;
+    }
+    .footer-custom p, .footer-custom li {
+        font-size: 12px;
+    }
+}
