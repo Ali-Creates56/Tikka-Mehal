@@ -7,7 +7,7 @@ body {
 }
 
 .home {
-    background-image: url("/assets/img/chicken-back.jpeg");
+    background-image: url("assets/img/chicken-back.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -86,10 +86,10 @@ body {
     transform: scale(1.03);
 }
 
-.cad1 { background-image: url("/assets/img/Chicken-Handi.jpeg"); }
-.cad2 { background-image: url("/assets/img/Butter-Chicken.jpeg"); }
-.cad3 { background-image: url("/assets/img/Roasted-Chicken.jpeg"); }
-.cad4 { background-image: url("/assets/img/Chicken-Kebab.jpeg"); }
+.cad1 { background-image: url("assets/img/Chicken-Handi.jpeg"); }
+.cad2 { background-image: url("assets/img/Butter-Chicken.jpeg"); }
+.cad3 { background-image: url("assets/img/Roasted-Chicken.jpeg"); }
+.cad4 { background-image: url("assets/img/Chicken-Kebab.jpeg"); }
 
 .cad-content {
     position: absolute;
